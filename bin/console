@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "process_factory"
+
+require "test_crack_sha256"
+
+require "pry"
+Pry.start

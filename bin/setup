@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# safe shell scripts
+set -euf -o pipefail
+IFS=$'\n\t'
+set -vx
+
+bundle install
+
+# additional setup
